@@ -1,0 +1,289 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Arial", "Helvetica", sans-serif;
+    line-height: 24px;
+    text-align: justify;
+}
+a {
+    color: #C0C0FF;
+    text-decoration: none;
+}
+a:visited {
+    color: #C0C0FF;
+}
+a:hover {
+    color: #E0E0FF;
+    text-decoration: underline;
+}
+a:active {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+a:hover img {
+    -webkit-filter: brightness(1.5);
+    filter: brightness(1.5);
+}
+a:active img {
+    -webkit-filter: brightness(2);
+    filter: brightness(2);
+}
+.Box {
+    margin-bottom: 32px;
+    /*
+    background-color: #000000;
+    border-radius: 16px;
+    */
+    padding: 16px;
+}
+.Centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+.VerticalCenteredParent {
+    display: table;
+    height: 90%;
+}
+.VerticalCenteredChild {
+    display: table-cell;
+    vertical-align: middle;
+}
+.Wide {
+    display: block;
+    clear: both;
+}
+.Left {
+    display: block;
+    float: left;
+    margin-right: 16px;
+}
+.Right {
+    display: block;
+    float: right;
+    margin-left: 16px;
+}
+.Thin {
+    width: 512px;
+}
+.Outline {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #000000;
+}
+.Divide {
+    display: block;
+    clear: both;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-top-style: solid;
+    border-top-color: #000000;
+    border-top-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-bottom-width: 2px;
+}
+.ButtonsNav.Box {
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 4px;
+}
+.NavButton {
+    display: inline-block;
+    width: 128px;
+    height: 24px;
+    margin-left: 0px;
+    margin-right: 4px;
+    background-color: #A000A0;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    color: #E0C0E0;
+    text-decoration: none;
+}
+.NavButton:hover {
+    cursor: pointer;
+}
+a.NavButton {
+    background-color: #C000C0;
+    color: #FFE0FF;
+}
+a.NavButton:visited {
+    background-color: #C000C0;
+    color: #FFE0FF;
+}
+a.NavButton:hover {
+    background-color: #E000E0;
+    color: #FFF0FF;
+    text-decoration: none;
+    text-shadow: 0 0 4px #FFF0FF;
+}
+a.NavButton:active {
+    background-color: #FF00FF;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 0 4px #FFFFFF;
+}
+.SingleButton {
+    width: 128px;
+}
+.HeaderNav {
+    width: 392px;
+    margin-bottom: 16px;
+}
+.About {
+    width: 60%;
+    min-width: 512px;
+    height: 256px;
+}
+.About img {
+    height: 256px;
+}
+.ProjectsNav {
+    width: 456px;
+}
+.ProjectsNavButtons {
+    float: right;
+}
+.ProjectsNavButtons .NavButton {
+    background-color: #400040;
+    color: #804080;
+}
+.ProjectsNavButtons .ActiveButton {
+    background-color: #C000C0;
+    color: #FFE0FF;
+}
+.Project {
+    width: 768px;
+}
+.ProjectNav {
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+.ProjectImage {
+    display: block;
+    height: 256px;
+    max-width: 256px;
+    overflow: hidden;
+    margin-right: 16px;
+    float: left;
+}
+.ProjectImage img {
+    height: 256px;
+}
+.ProjectDesc {
+    min-height: 256px;
+}
+.ContactNav {
+    width: 256px;
+}
+.Contact {
+    display: table;
+    width: 256px;
+    height: 48px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.Contact img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+.Contact section {
+    display: table-cell;
+    width: 208px;
+    height: 16px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.HorizontalLast {
+    margin-right: 0px;
+}
+.Hidden {
+    display: none;
+}
+div {
+    display: block;
+}
+section {
+    display: block;
+}
+header {
+    display: block;
+    margin-bottom: 32px;
+}
+nav {
+    display: block;
+}
+h1 {
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000000,  
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+    font-size: 36px;
+    font-family: "Bank Gothic", "Arial", "Helvetica", sans-serif;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000000,  
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+    font-size: 30px;
+    font-family: "Bank Gothic", "Arial", "Helvetica", sans-serif;
+    text-align: center;
+}
+h3 {
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000000,  
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+    font-size: 24px;
+    font-family: "Bank Gothic", "Arial", "Helvetica", sans-serif;
+}
+ul {
+   margin-left: 16px; 
+}
+li {
+   margin-bottom: 8px; 
+}
+#Wrap {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+#NormalBackground {
+    background-image: url(../assets/images/background.jpg);
+    background-color: #0000A0;
+}
+#DarkBackground {
+    background-image: url(../assets/images/background_dark.jpg);
+    background-color: #000060;
+}
+#Logo {
+    display: block;
+    width: 768px;
+    height: 192px;
+    margin-bottom: 16px;
+}
+#BigLogo {
+    display: block;
+    width: 1024px;
+    max-width: 100%;
+    margin-bottom: 16px;
+}

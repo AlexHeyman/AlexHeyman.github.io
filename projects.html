@@ -1,0 +1,65 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Andrew Heyman</title>
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <link rel="stylesheet" href="stylesheets/reset.css">
+        <link rel="stylesheet" href="stylesheets/main.css">
+        <link rel="stylesheet" href="assets/scripts/lightbox2-master/src/css/lightbox.css" type="text/css" media="screen">
+        <script type="text/javascript" src="assets/scripts/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="assets/scripts/lightbox2-master/src/js/lightbox.js"></script>
+        <!--<script type="text/javascript" src="assets/scripts/filtercontent.js"></script>-->
+        <meta charset="utf-8">
+    </head>
+    <body id="DarkBackground">
+        <div id="Wrap">
+            <header>
+                <a href="index.html" class="Centered" id="Logo"><img src="assets/images/logo.svg" alt="Andrew Heyman"></a>
+                <nav class="Centered Box ButtonsNav HeaderNav"><a href="about.html" class="NavButton">About</a><section class="NavButton">Projects</section><a href="contact.html" class="NavButton HorizontalLast">Contact</a></nav>
+            </header>
+            <h1>Projects</h1>
+            <!--<nav class="Centered Box ButtonsNav ProjectsNav">Include:<section class="ProjectsNavButtons"><section class="NavButton ActiveButton" data-contenttoggle="programming" data-activeclass="ActiveButton">Programming</section><section class="NavButton ActiveButton" data-contenttoggle="games" data-activeclass="ActiveButton">Games</section><section class="NavButton ActiveButton HorizontalLast" data-contenttoggle="design" data-activeclass="ActiveButton">Design</section><!--<section class="NavButton ActiveButton HorizontalLast" data-contenttoggle="writing" data-activeclass="ActiveButton">Writing</section>--><!--</section></nav>-->
+            <section class="Wide Box Centered Project" data-contenttags="programming games">
+                <h2>Sonic Robo Blast 2 Mods</h2>
+                <nav class="Centered Box ButtonsNav ProjectNav"><a href="assets/images/srb2mods/screenshot1.png" data-lightbox="SRB2 mod screenshots" class="NavButton">Screenshots</a><a href="assets/images/srb2mods/gif1.gif" data-lightbox="SRB2 mod GIFs" class="NavButton HorizontalLast">GIFs</a></nav>
+                <a href="assets/images/srb2mods/screenshot2.png" data-lightbox="SRB2 mod screenshots" class="Hide"></a>
+                <a href="assets/images/srb2mods/screenshot3.png" data-lightbox="SRB2 mod screenshots" class="Hide"></a>
+                <a href="assets/images/srb2mods/gif2.gif" data-lightbox="SRB2 mod GIFs" class="Hide"></a>
+                <section class="ProjectDesc">
+                    <section class="ProjectImage Outline"><img src="assets/images/srb2mods/screenshot1.png" alt="SRB2 mods"></section>
+                    These are modifications that I've made for the <a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(series)">Sonic the Hedgehog</a> fangame <a href="http://www.srb2.org/">Sonic Robo Blast 2</a>, ranging from extra levels to playable characters to different styles of gameplay using SRB2's engine. Most of them can be accessed through <a href="http://mb.srb2.org/member.php?u=4557">my page</a> on the SRB2 Message Board forum, or by searching for my username on that forum.
+                </section>
+            </section>
+            <section class="Wide Box Centered Project" data-contenttags="programming design">
+                <h2>Design Communication Website</h2>
+                <nav class="Centered Box ButtonsNav ProjectNav"><a href="http://people.ucls.uchicago.edu/~bwildem/design_communication/index.html" class="NavButton">Website</a><a href="http://people.ucls.uchicago.edu/~bwildem/design_communication/scripts/classes.js" class="NavButton HorizontalLast">JavaScript source</a></nav>
+                <section class="ProjectDesc">
+                    <section class="ProjectImage Outline"><img src="assets/images/project_dsncomsite.png" alt="Design Communication website"></section>
+                    This is my high school Design Communication class' website, which I worked on after finishing the course. The site originally had several webpages, one for each year's class, but I condensed them into a single page operated by a JavaScript that automatically organizes the students' icons and allows the user to cycle between classes.
+                </section>
+            </section>
+            <section class="Wide Box Centered Project" data-contenttags="design">
+                <h2>Mega Man Cover</h2>
+                <nav class="Centered Box ButtonsNav ProjectNav"><a href="assets/images/megamancover.png" data-lightbox="Mega Man cover" class="NavButton">View</a><a href="assets/images/megamancover.png" download="" class="NavButton HorizontalLast">Download (PNG)</a></nav>
+                <section class="ProjectDesc">
+                    <section class="ProjectImage Outline"><img src="assets/images/project_megamancover.png" alt="Mega Man cover"></section>
+                    This is a game box cover that I made for the classic video game <a href="https://en.wikipedia.org/wiki/Mega_Man_(video_game)">Mega Man</a> as an unofficial replacement for <a href="http://upload.wikimedia.org/wikipedia/en/d/dd/Mega_Man_1_box_artwork.jpg" data-lightbox="Mega Man original cover">the original cover</a>. The character art is official and the background images were only modified by me, but the layout, blurb, and title lettering are all mine.
+                </section>
+            </section>
+            <section class="Wide Box Centered Project" data-contenttags="design">
+                <h2>Face Trace</h2>
+                <nav class="Centered Box ButtonsNav ProjectNav"><a href="assets/images/project_facetrace.gif" data-lightbox="Face trace" class="NavButton">View</a><a href="assets/images/facetrace.png" download="" class="NavButton HorizontalLast">Download (PNG)</a></nav>
+                <section class="ProjectDesc">
+                    <section class="ProjectImage Outline"><img src="assets/images/project_facetrace.gif" alt="Face trace"></section>
+                    This is a traced photo of my face that I made for my Design Communication class to practice using Adobe Illustrator's pen tool.
+                </section>
+            </section>
+        </div>
+        <script>
+            lightbox.option({
+              'wrapAround': true
+            })
+            //initializeFilterContent();
+        </script>
+    </body>
+</html>
