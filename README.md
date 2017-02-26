@@ -1,1 +1,1 @@
-This is the personal website of 742mph, real name Andrew Heyman.
+This is the personal website of Andrew Heyman.
