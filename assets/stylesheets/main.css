@@ -268,11 +268,11 @@ li {
     padding-bottom: 16px;
 }
 #NormalBackground {
-    background-image: url(../assets/images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-color: #0000A0;
 }
 #DarkBackground {
-    background-image: url(../assets/images/background_dark.jpg);
+    background-image: url(../images/background_dark.jpg);
     background-color: #000060;
 }
 #Logo {
