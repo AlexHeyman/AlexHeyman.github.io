@@ -1,0 +1,38 @@
+body {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Times New Roman", serif;
+    line-height: 24px;
+    text-align: justify;
+}
+p {
+    margin-bottom: 32px;
+}
+i {
+    font-style: italic;
+}
+table {
+    display: table;
+}
+tr {
+    display: table-row;
+}
+td {
+    display: table-cell;
+}
+.Name {
+    font-weight: bold;
+    width: 112px;
+    margin-right: 16px;
+}
+#wrap {
+    display: block;
+    padding-top: 16px;
+}
+#centered_wrap {
+    display: block;
+    width: 50%;
+    min-width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+}
