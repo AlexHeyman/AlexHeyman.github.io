@@ -131,13 +131,13 @@ a.NavButton:active {
     width: 128px;
 }
 .HeaderNav {
-    width: 392px;
+    width: 524px;
     margin-bottom: 16px;
 }
 .About {
     width: 60%;
     min-width: 512px;
-    height: 256px;
+    min-height: 256px;
 }
 .About img {
     height: 256px;
