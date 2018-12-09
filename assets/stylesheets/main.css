@@ -96,33 +96,33 @@ a:active img {
     height: 24px;
     margin-left: 0px;
     margin-right: 4px;
-    background-color: #A000A0;
+    background-color: #00A078;
     border-radius: 4px;
     text-align: center;
     line-height: 24px;
     font-size: 14px;
-    color: #E0C0E0;
+    color: #C0E0D8;
     text-decoration: none;
 }
 .NavButton:hover {
     cursor: pointer;
 }
 a.NavButton {
-    background-color: #C000C0;
-    color: #FFE0FF;
+    background-color: #00C090;
+    color: #E0FFF8;
 }
 a.NavButton:visited {
-    background-color: #C000C0;
-    color: #FFE0FF;
+    background-color: #00C090;
+    color: #E0FFF8;
 }
 a.NavButton:hover {
-    background-color: #E000E0;
-    color: #FFF0FF;
+    background-color: #00E0B8;
+    color: #F0FFFC;
     text-decoration: none;
-    text-shadow: 0 0 4px #FFF0FF;
+    text-shadow: 0 0 4px #F0FFFC;
 }
 a.NavButton:active {
-    background-color: #FF00FF;
+    background-color: #00FFC0;
     color: #FFFFFF;
     text-decoration: none;
     text-shadow: 0 0 4px #FFFFFF;
@@ -149,12 +149,12 @@ a.NavButton:active {
     float: right;
 }
 .ProjectsNavButtons .NavButton {
-    background-color: #400040;
-    color: #804080;
+    background-color: #004030;
+    color: #408070;
 }
 .ProjectsNavButtons .ActiveButton {
-    background-color: #C000C0;
-    color: #FFE0FF;
+    background-color: #00C090;
+    color: #E0FFF8;
 }
 .Project {
     width: 768px;
@@ -273,11 +273,11 @@ li {
 }
 #NormalBackground {
     background-image: url(../images/background.jpg);
-    background-color: #0000A0;
+    background-color: #0000C0;
 }
 #DarkBackground {
     background-image: url(../images/background_dark.jpg);
-    background-color: #000060;
+    background-color: #000080;
 }
 #BigLogo {
     display: block;
