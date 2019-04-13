@@ -9,6 +9,9 @@ body {
     line-height: 24px;
     text-align: justify;
 }
+i {
+    font-style: italic;
+}
 a {
     color: #C0C0FF;
     text-decoration: none;
@@ -24,13 +27,63 @@ a:active {
     color: #FFFFFF;
     text-decoration: underline;
 }
-a:hover img {
-    -webkit-filter: brightness(1.5);
-    filter: brightness(1.5);
+div {
+    display: block;
 }
-a:active img {
-    -webkit-filter: brightness(2);
-    filter: brightness(2);
+section {
+    display: block;
+}
+header {
+    display: block;
+    margin-bottom: 32px;
+}
+nav {
+    display: block;
+}
+h1 {
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000000,  
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+    font-size: 36px;
+    font-family: "Bank Gothic", "Arial", "Helvetica", sans-serif;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+    font-size: 30px;
+    font-family: "Bank Gothic", "Arial", "Helvetica", sans-serif;
+    text-align: center;
+}
+h3 {
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+    font-size: 24px;
+    font-family: "Bank Gothic", "Arial", "Helvetica", sans-serif;
+}
+p {
+    display: block;
+    margin-bottom: 24px;
+}
+ul {
+   margin-left: 16px; 
+}
+li {
+   margin-bottom: 8px; 
 }
 .Box {
     margin-bottom: 32px;
@@ -208,78 +261,20 @@ a.NavButton:active {
 .Hidden {
     display: none;
 }
-div {
-    display: block;
-}
-section {
-    display: block;
-}
-header {
-    display: block;
-    margin-bottom: 32px;
-}
-nav {
-    display: block;
-}
-h1 {
-    margin-bottom: 16px;
-    color: #FFFFFF;
-    text-shadow:
-        -1px -1px 0 #000000,  
-        1px -1px 0 #000000,
-        -1px 1px 0 #000000,
-        1px 1px 0 #000000;
-    font-size: 36px;
-    font-family: "Bank Gothic", "Arial", "Helvetica", sans-serif;
-    text-align: center;
-}
-h2 {
-    margin-bottom: 16px;
-    color: #FFFFFF;
-    text-shadow:
-        -1px -1px 0 #000000,
-        1px -1px 0 #000000,
-        -1px 1px 0 #000000,
-        1px 1px 0 #000000;
-    font-size: 30px;
-    font-family: "Bank Gothic", "Arial", "Helvetica", sans-serif;
-    text-align: center;
-}
-h3 {
-    margin-bottom: 8px;
-    color: #FFFFFF;
-    text-shadow:
-        -1px -1px 0 #000000,
-        1px -1px 0 #000000,
-        -1px 1px 0 #000000,
-        1px 1px 0 #000000;
-    font-size: 24px;
-    font-family: "Bank Gothic", "Arial", "Helvetica", sans-serif;
-}
-p {
-    display: block;
-    margin-bottom: 24px;
-}
-ul {
-   margin-left: 16px; 
-}
-li {
-   margin-bottom: 8px; 
-}
 #Wrap {
     display: block;
     padding-top: 16px;
     padding-bottom: 16px;
 }
-#NormalBackground {
+#normal_background {
     background-image: url(../images/background.jpg);
     background-color: #0000C0;
 }
-#DarkBackground {
+#dark_background {
     background-image: url(../images/background_dark.jpg);
     background-color: #000080;
 }
-#BigLogo {
+#big_logo {
     display: block;
     width: 1024px;
     max-width: 100%;

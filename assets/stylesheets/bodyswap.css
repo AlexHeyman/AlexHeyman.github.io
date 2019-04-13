@@ -1,0 +1,62 @@
+body {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Times New Roman", serif;
+    line-height: 24px;
+    text-align: justify;
+}
+h1 {
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+p {
+    margin-bottom: 16px;
+}
+.AutoResize {
+    box-sizing: padding-box;
+    overflow: hidden;
+}
+#wrap {
+    display: block;
+    padding-top: 16px;
+}
+#centered_wrap {
+    display: block;
+    width: 90%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main_wrap {
+    display: block;
+    width: 90%;
+    max-width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#names_and_results_wrap {
+    display: table;
+    table-layout: fixed;
+    box-sizing: border-box;
+    border-spacing: 32px;
+    width: 100%;
+}
+#names_wrap {
+    display: table-cell;
+}
+#results_wrap {
+    display: table-cell;
+}
+#names {
+    display: block;
+    width: 100%;
+    resize: none;
+}
+#results {
+    display: block;
+    line-height: 16px;
+}

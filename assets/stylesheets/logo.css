@@ -1,4 +1,12 @@
-#Logo {
+a:hover img {
+    -webkit-filter: brightness(1.5);
+    filter: brightness(1.5);
+}
+a:active img {
+    -webkit-filter: brightness(2);
+    filter: brightness(2);
+}
+#logo {
     display: block;
     width: 768px;
     height: 192px;
