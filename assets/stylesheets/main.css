@@ -261,7 +261,7 @@ a.NavButton:active {
 .Hidden {
     display: none;
 }
-#Wrap {
+#wrap {
     display: block;
     padding-top: 16px;
     padding-bottom: 16px;
