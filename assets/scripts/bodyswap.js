@@ -22,7 +22,7 @@ function shuffle(array) {
     return array;
 }
 
-//Takes an array of names and a swap type ("derangement", "permutation", or
+//Takes an array of names and a swap type ("derangement", "arrangement", or
 //"two_way"), simulates a random swap of the specified type, and returns the
 //results as a dictionary from names of minds to names of their new bodies.
 function simulateSwap(names, swapType) {
@@ -50,8 +50,8 @@ function simulateSwap(names, swapType) {
                 results[names[i]] = shuffledNames[i];
             }
         }
-    } else if (swapType === "permutation") {
-        //Bodies are a random permutation of minds
+    } else if (swapType === "arrangement") {
+        //Bodies are a random arrangement (permutation) of minds
         var shuffledNames = shuffle(names.slice());
         for (var i = 0; i < names.length; i++) {
             results[names[i]] = shuffledNames[i];
