@@ -20,11 +20,30 @@
             <section>
                 <ul>
                     <li>
-                        <a href="assets/downloads/tiledreader/TiledReader-1.0.1.zip">TiledReader (version 1.0.1, for Tiled version 1.4.x) with source and javadoc included</a>
+                        <a href="assets/downloads/tiledreader/TiledReader-1.1.0.zip">TiledReader (version 1.1.0, for Tiled version 1.4.x) with source and javadoc included</a>
                         <ul>
                             <li>
                                 <a class="ShowHideButton">Changelog</a>
                                 <ul class="ShowHide Technical">
+                                    <li>
+                                        Version 1.1.0
+                                        <ul>
+                                            <li>Changed the TiledReader class into an instantiable class with abstract methods for back-end tasks like I/O and interaction with the resource cache. Added the FileSystemTiledReader subclass to replicate the old TiledReader class' back-end behavior.</li>
+                                            <li>Added support for Tiled's "Object Types Editor" feature in the form of the TiledObjectTypes and TiledObjectType classes.</li>
+                                            <li>Added support for tile objects inheriting their types from their tiles.</li>
+                                            <li>Added support for terrain types without representative tiles.</li>
+                                            <li>Added the TiledCustomizable interface.</li>
+                                            <li>Added the TiledFile class, replacing exposure of java.io.File instances.</li>
+                                            <li>Added the TieredMap utility class.</li>
+                                            <li>Added the getNonDefaultProperties() method to the TiledObject and TiledTile classes.</li>
+                                            <li>Gave TiledReader its own Logger and exposed it as a static field of the TiledReader class.</li>
+                                            <li>Made it so TiledResource.getReader() returns the TiledReader that read the object even if the object does not represent a file's top-level structure. Whether a TiledResource represents a top-level structure can still be checked by checking if its getPath() method does not return null.</li>
+                                            <li>Fixed a bug in which objects' type strings would always be reported as equal to their name strings.</li>
+                                            <li>Fixed a bug in which TiledReader would be unable to parse a tile with terrain types set at only some of its corners.</li>
+                                            <li>Removed TiledReader's dependency on JavaFX.</li>
+                                            <li>Various internal code tweaks and documentation improvements</li>
+                                        </ul>
+                                    </li>
                                     <li>
                                         Version 1.0.1
                                         <ul>
@@ -37,6 +56,7 @@
                                                 </ul>
                                             </li>
                                         </ul>
+                                    </li>
                                     <li>
                                         Version 1.0.0
                                         <ul>
@@ -48,18 +68,19 @@
                             <li>
                                 <a class="ShowHideButton">Older versions</a>
                                 <ul class="ShowHide">
+                                    <li><a href="assets/downloads/tiledreader/TiledReader-1.0.1.zip">Version 1.0.1</a></li>
                                     <li><a href="assets/downloads/tiledreader/TiledReader-1.0.0.zip">Version 1.0.0</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a class="ShowHideButton">Known issues</a>
                                 <ul class="ShowHide">
-                                    <li>Objects' type strings will always be reported as equal to their name stringss. Fixed in the GitHub version.</li>
                                 </ul>
-                            </li>
+                            </li>-->
                         </ul>
                     </li>
                 </ul>
+                TiledReader is also available from the <a href="https://central.sonatype.org/">Central Repository</a>.
             </section>
             <h2>Links</h2>
             <section>
